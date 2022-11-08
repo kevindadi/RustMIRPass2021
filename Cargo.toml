@@ -20,3 +20,6 @@ rand = "0.8.5"
 
 [profile.dev]
 incremental = false
+
+[package.metadata.rust-analyzer] 
+rustc_private=true
